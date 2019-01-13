@@ -12,7 +12,7 @@ def mergePdf(infilelist,outfile):
 			pdfFileWriter.addPage(pageobj)
 		pdfFileWriter.write(open(outfile,"wb"))
 
-rootdir=r'C:\Users\子龙\Desktop\AM'
+rootdir=r'your dir'
 '''list_=os.listdir(rootdir)
 path=[]
 for i in range(len(list_)):
